@@ -13,7 +13,9 @@ function App() {
         <h2 className="mb-5">Live In</h2>
         <Timer />
         <h4 className="mt-5">
-          Annual Gnana Satra this year to be held during 26/5/2021 to 1/6/2021 from 7pm to 8pm by Shri PT Venkatagirish Achar
+          Annual Gnana Satra this year to be held from 26/5/2021 to 1/6/2021.
+          <br />
+          Daily @ 7 pm to 8pm by Shri PT Venkatagirish Achar
         </h4>
         <h4 className="mt-4">
           Topic: Sundarakanda

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+@import url('https://fonts.cdnfonts.com/css/samarkan');
+
+body {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url('gs-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top top;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background: rgb(55, 55, 70);
+  background: linear-gradient(
+    0deg,
+    rgba(55, 55, 70, 0.9) 0%,
+    rgba(55, 55, 70, 0.7) 50%,
+    rgba(55, 55, 70, 0.6) 100%
+  );
+}
+
+h1 {
+  font-family: 'Samarkan', sans-serif;
+  font-size: 58px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.css-typing {
+  border-right: .15em solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type 5s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid white;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid white;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
