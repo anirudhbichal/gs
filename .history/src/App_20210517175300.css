@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
-@import url('http://fonts.cdnfonts.com/css/samarkan');
 
 body {
   color: #fff;
@@ -20,15 +19,14 @@ body {
   background: rgb(55, 55, 70);
   background: linear-gradient(
     0deg,
-    rgba(55, 55, 70, 0.9) 0%,
-    rgba(55, 55, 70, 0.7) 50%,
-    rgba(55, 55, 70, 0.6) 100%
+    rgba(55, 55, 70, 0.3) 0%,
+    rgba(55, 55, 70, 0.6) 50%,
+    rgba(55, 55, 70, 0.8) 100%
   );
 }
 
 h1 {
-  font-family: 'Samarkan', sans-serif;
-  font-size: 58px;
+  font-size: 38px;
   text-transform: uppercase;
   line-height: 1;
 }
