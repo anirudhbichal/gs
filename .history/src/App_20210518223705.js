@@ -6,7 +6,7 @@ import Timer from "./components/countdown/Timer";
 function App() {
   return (
     <div className="App">
-      <Container className="py-5">
+      {/* <Container className="my-5">
         <h1>
           Gnana Satra 2021
         </h1>
@@ -25,7 +25,8 @@ function App() {
         <h5 className="mt-4 group-link">
           <a href="https://chat.whatsapp.com/Bpkp3Sle3405H2w5DgFScy" target="_blank">Join this whatsapp group to get updates regarding Pravachana </a>
         </h5>
-      </Container>
+      </Container> */}
+      <h1>Hi</h1>
     </div>
   );
 }
